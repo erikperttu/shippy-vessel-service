@@ -1,8 +1,8 @@
 build:
 	protoc -I. --go_out=plugins=micro:. \
     proto/vessel/vessel.proto
+image:
 	docker build -t shippy-vessel-service .
-
 run:
 	docker run -d --net="host" \
 		-p 50053 \
