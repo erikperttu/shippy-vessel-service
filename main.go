@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	pb "github.com/erikperttu/shippy-vessel-service/proto/vessel"
-	"github.com/micro/go-micro"
 	"log"
 	"os"
+
+	pb "github.com/erikperttu/shippy-vessel-service/proto/vessel"
+	"github.com/micro/go-micro"
 )
 
 const (
